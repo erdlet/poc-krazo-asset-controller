@@ -1,0 +1,15 @@
+# PoC Krazo Asset Controller
+
+This repository contains a proof of concept which shows how a static asset controller can be used
+to serve Jakarta MVC applications on the context root without the problem of not loading assets
+served by the servlet container.
+
+The problem which led to this PoC is the fact, that a Jakarta MVC application can't run on context root
+and use static assets provided by the servlet container at the same time. The reason for this is, that
+the servlet container itself wants to provide those assets on it's context root, but this is already
+in use by Jakarta RESTful Web Services / Jakarta MVC. By providing an opt-in controller for those use-cases,
+implementing plain Jakarta MVC applications would be a lot more comfortable.
+
+## Pictures used
+
+- plus.png: <a href="https://www.flaticon.com/de/kostenlose-icons/plus" title="plus Icons">Plus Icons erstellt von Freepik - Flaticon</a>

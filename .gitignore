@@ -1,0 +1,12 @@
+target/
+
+*.class
+
+*.iml
+*.iws
+
+.classpath
+.projects
+.settings/
+
+tomcat.8080/
