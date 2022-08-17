@@ -10,6 +10,11 @@ the servlet container itself wants to provide those assets on it's context root,
 in use by Jakarta RESTful Web Services / Jakarta MVC. By providing an opt-in controller for those use-cases,
 implementing plain Jakarta MVC applications would be a lot more comfortable.
 
+## Starting the PoC
+
+- With Tomcat 10: `mvn clean package org.codehaus.cargo:cargo-maven3-plugin:run -Ptomcat`
+- With GlassFish 6: `mvn clean package org.codehaus.cargo:cargo-maven3-plugin:run -Pglassfish6`
+
 ## Pictures used
 
 - plus.png: <a href="https://www.flaticon.com/de/kostenlose-icons/plus" title="plus Icons">Plus Icons erstellt von Freepik - Flaticon</a>
