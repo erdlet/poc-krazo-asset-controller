@@ -15,6 +15,7 @@ implementing plain Jakarta MVC applications would be a lot more comfortable.
 - With Tomcat 10: `mvn clean package org.codehaus.cargo:cargo-maven3-plugin:run -Ptomcat`
 - With GlassFish 6: `mvn clean package org.codehaus.cargo:cargo-maven3-plugin:run -Pglassfish6`
 - With GlassFish 7 Nightly: `mvn clean package org.codehaus.cargo:cargo-maven3-plugin:run -Pglassfish7`
+- With WildFly 26: `mvn -Pwildfly package wildfly-jar:package wildfly-jar:run`
 
 ## Pictures used
 
